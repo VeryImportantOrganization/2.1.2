@@ -18,7 +18,6 @@ public class App {
         System.out.println(tom.getCatVoice());
 
         System.out.println("HelloWorld's beans equal: " + (bean == bean2));
-
         System.out.println("Cat's beans equal: " + (kitty == tom));
     }
 }

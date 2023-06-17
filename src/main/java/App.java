@@ -17,7 +17,7 @@ public class App {
         Cat tom = (Cat) applicationContext.getBean("cat");
         System.out.println(tom.getCatVoice());
 
-        System.out.println("HelloWorld's beans equal: " + bean.equals(bean2));
-        System.out.println("Cat's beans equal: " + kitty.equals(tom));
+        System.out.println("HelloWorld's beans equal: " + (bean == bean2));
+        System.out.println("Cat's beans equal: " + (kitty == tom));
     }
 }
